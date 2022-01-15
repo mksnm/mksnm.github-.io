@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - nuxt-app',
-    title: 'nuxt-app',
+    //titleTemplate: '%s - nuxt-app',
+    title: 'mitorie',
     htmlAttrs: {
       lang: 'en',
     },
@@ -16,15 +16,38 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       //{ name: 'format-detection', content: 'telephone=no' },
+      { hid: 'og:title', property: 'og:title', content: "mitorie" },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: "mitori's Portfolio",
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://mitori.art/',
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content:
+          'https://mitori.art/img/cover.jpg',
+      },
+      {
+        hid: 'og:twitter',
+        content: 'summary',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-  },
-  router: {
-    base: '/mksnm.github.io/'
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   generate: {
-    dir: 'docs'
+    dir: 'docs',
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
