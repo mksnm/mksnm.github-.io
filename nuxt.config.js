@@ -1,5 +1,13 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  router: {
+    base: '/mksnm.github.io/'
+  },
+
+  generate: {
+    dir: 'docs'
+  },
+
   head: {
     title: 'nuxt_app',
     htmlAttrs: {
