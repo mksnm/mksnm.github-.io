@@ -8,6 +8,7 @@ export default {
   head: {
     //titleTemplate: '%s - nuxt-app',
     target: 'static',
+    buildDir: 'nuxt-docs',
 
     title: 'mitorie',
     htmlAttrs: {
