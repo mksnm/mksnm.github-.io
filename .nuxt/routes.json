@@ -3,12 +3,14 @@
     "name": "inspire",
     "path": "/inspire",
     "component": "/Users/mitori/mksnm.github.io/pages/inspire.vue",
-    "chunkName": "pages/inspire"
+    "chunkName": "pages/inspire",
+    "_name": "_8fb36ae4"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/mitori/mksnm.github.io/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_00531b86"
   }
 ]
